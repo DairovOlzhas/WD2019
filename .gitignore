@@ -1,4 +1,3 @@
-#Исключим директорию __pycache__ :
+
+
 notforgit/
-#Исключим сам файл .gitignore:
-.gitignore
