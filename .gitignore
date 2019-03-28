@@ -1,10 +1,7 @@
-#Исключим директорию __pycache__ :
-notforgit/
-#Исключим сам файл .gitignore:
-.gitignore
-
+﻿
 # See https://help.github.com/ignore-files/ for more about ignoring files.
-
+notforgit/
+.gitignore
 # dependencies
 /node_modules
 
