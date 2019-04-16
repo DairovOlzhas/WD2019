@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from './shared/services/api.service';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,9 +14,11 @@ import { ApiService } from './shared/services/api.service';
     MainComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     ApiService
